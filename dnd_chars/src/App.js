@@ -1,5 +1,7 @@
 // App.js
 import Resources from './components/Resources';
+import SlotsMatrix from './components/SlotsMatrix';
+import LocalStorageManager from './components/LocalStorageManager'; // Import the component
 
 import React, { useState, useEffect } from 'react';
 import {
@@ -10,8 +12,6 @@ import {
   GridItem,
   Text,
   Select,
-  Input,
-  Button,
   Accordion,
   AccordionItem,
   AccordionButton,
@@ -19,8 +19,6 @@ import {
   AccordionIcon,
   VStack,
   Divider,
-  FormControl,
-  FormLabel,
   useToast,
 } from '@chakra-ui/react';
 import { useSelector, useDispatch } from 'react-redux';
@@ -115,9 +113,6 @@ function App() {
 
     <ChakraProvider>
       <Box maxWidth="800px" mx="auto" p={6}>
-        <Heading as="h1" textAlign="center" mb={6}>
-          D&D Character Sheet
-        </Heading>
 
         {/* Dropdown to select character */}
         <Select
@@ -177,10 +172,10 @@ function App() {
           </GridItem>
         </Grid>
 
-
-        <Heading as="h2" size="lg" mt={8} mb={4}>
+        <SlotsMatrix />
+        {/* <Heading as="h2" size="lg" mt={8} mb={4}>
   Hit Points & Resources
-</Heading>
+</Heading> */}
 <Resources
   formData={formData}
   handleInputChange={handleInputChange}
@@ -195,7 +190,7 @@ function App() {
         {currentCharacterStats.channel_divinity &&
           Object.keys(currentCharacterStats.channel_divinity).length > 0 && (
             <>
-              <Heading as="h2" size="lg" mt={8} mb={4}>
+              <Heading as="h2" size="sm" mt={8} mb={4}>
                 Channel Divinity
               </Heading>
               <Accordion allowMultiple>
@@ -222,7 +217,7 @@ function App() {
         {currentCharacterStats.spells &&
           Object.keys(currentCharacterStats.spells).length > 0 && (
             <>
-              <Heading as="h2" size="lg" mt={8} mb={4}>
+              <Heading as="h2" size="sm" mt={8} mb={4}>
                 Spells
               </Heading>
               <Accordion allowMultiple>
@@ -257,7 +252,20 @@ function App() {
                 )}
               </Accordion>
             </>
+
+  
+
           )}
+
+
+          {/* LocalStorageManager Component */}
+  <Heading as="h2" size="lg" mb={4}>
+  Notes
+</Heading>
+<LocalStorageManager
+  storageKey="characterNotes" // Unique key for localStorage
+  initialValue="" // Optional: Set an initial value
+/>
       </Box>
     </ChakraProvider>
   );
