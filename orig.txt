@@ -1,4 +1,16 @@
 
+{
+    "earnest": {
+        STR:{value:20, bonus:5},
+        DEX:{value:10, bonus:0},
+        CON:{value:13, bonus:1},
+        INT:{value:8, bonus:-1},
+        WIS:{value:14, bonus:2},
+        CHR:{value:14, bonus:2}        
+    }
+}
+
+
 let char = {
     STR:{value:20, bonus:5},
     DEX:{value:10, bonus:0},
@@ -8,7 +20,6 @@ let char = {
     CHR:{value:14, bonus:2},
     HP:63,
     GP:0,
-    SP:0,
 }
 
 let specia = {
