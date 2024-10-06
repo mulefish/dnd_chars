@@ -1,0 +1,65 @@
+
+let char = {
+    STR:{value:20, bonus:5},
+    DEX:{value:10, bonus:0},
+    CON:{value:13, bonus:1},
+    INT:{value:8, bonus:-1},
+    WIS:{value:14, bonus:2},
+    CHR:{value:14, bonus:2},
+    HP:63,
+    GP:0,
+    SP:0,
+}
+
+let specia = {
+    "bonusAction":"Smite"
+}
+
+let feats = {
+    "heavy_armour_master":"-4 damage",
+    "alert":"",
+    "lucky":5,
+    "dueling feat":""
+}
+
+let weapons = {
+    "longSword":"sap",
+    "halberd":"reach",
+    "shield":""
+}
+
+let skills = {
+    "perception":"",
+    "dice":"",
+    "resourseful":"inspire points",
+    "skillful":"cards",
+    "Athletics":"",
+    "religion insight":"",
+    "detect evil":""
+}
+
+let spells = {
+    "4":"first",
+    "3":"2nd"
+}
+
+let notes = `
+attack * 2 
+paladine smite 
+lay on hands 
+faithful steed 
+aura of protection ( + 2 saving throw )
+abture foe 
+channel divinity : vow of emnity , relentless
+
+
+`
+
+let vengence_special = {
+    "bane":"", 
+    "hunters mark":"", 
+    "haste" : "", 
+    "misty step":"", 
+    "hold person":"", 
+    "protection from evil":""
+}
