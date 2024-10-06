@@ -1,4 +1,6 @@
 // App.js
+import Resources from './components/Resources';
+
 import React, { useState, useEffect } from 'react';
 import {
   ChakraProvider,
@@ -16,7 +18,6 @@ import {
   AccordionPanel,
   AccordionIcon,
   VStack,
-  HStack,
   Divider,
   FormControl,
   FormLabel,
@@ -80,7 +81,12 @@ function App() {
 
   // Handle updating all fields
   const handleUpdateAll = () => {
-    dispatch(updateHitPoints({ characterName: selectedCharacter, newHitPoints: formData.hitPoints }));
+    dispatch(
+      updateHitPoints({
+        characterName: selectedCharacter,
+        newHitPoints: formData.hitPoints,
+      })
+    );
     dispatch(
       updateResources({
         characterName: selectedCharacter,
@@ -90,9 +96,9 @@ function App() {
       })
     );
     toast({
-      title: "Character Updated",
+      title: 'Character Updated',
       description: `${selectedCharacter.charAt(0).toUpperCase() + selectedCharacter.slice(1)}'s hit points and resources have been updated.`,
-      status: "success",
+      status: 'success',
       duration: 3000,
       isClosable: true,
     });
@@ -101,7 +107,12 @@ function App() {
   // Get the stats for the currently selected character
   const currentCharacterStats = characters[selectedCharacter];
 
+
+
   return (
+
+
+
     <ChakraProvider>
       <Box maxWidth="800px" mx="auto" p={6}>
         <Heading as="h1" textAlign="center" mb={6}>
@@ -123,7 +134,9 @@ function App() {
 
         {/* Ability Scores Section */}
         <Heading as="h2" size="lg" mt={8} mb={4}>
-          Ability Scores for {selectedCharacter.charAt(0).toUpperCase() + selectedCharacter.slice(1)}
+          Ability Scores for{' '}
+          {selectedCharacter.charAt(0).toUpperCase() +
+            selectedCharacter.slice(1)}
         </Heading>
         <Grid templateColumns="repeat(2, 1fr)" gap={4}>
           <GridItem>
@@ -164,61 +177,16 @@ function App() {
           </GridItem>
         </Grid>
 
-        {/* Hit Points and Resources Section */}
+
         <Heading as="h2" size="lg" mt={8} mb={4}>
-          Hit Points & Resources
-        </Heading>
-        <Grid templateColumns="repeat(2, 1fr)" gap={4} alignItems="start">
-          <GridItem>
-            <FormControl mb={4}>
-              <FormLabel>Hit Points</FormLabel>
-              <Input
-                type="number"
-                name="hitPoints"
-                value={formData.hitPoints}
-                onChange={handleInputChange}
-                min="0"
-                size="sm"
-              />
-            </FormControl>
-            <FormControl mb={4}>
-              <FormLabel>Gold Pieces</FormLabel>
-              <Input
-                type="number"
-                name="goldpieces"
-                value={formData.goldpieces}
-                onChange={handleInputChange}
-                min="0"
-                size="sm"
-              />
-            </FormControl>
-            <FormControl mb={4}>
-              <FormLabel>Silver Pieces</FormLabel>
-              <Input
-                type="number"
-                name="silverpieces"
-                value={formData.silverpieces}
-                onChange={handleInputChange}
-                min="0"
-                size="sm"
-              />
-            </FormControl>
-            <FormControl mb={4}>
-              <FormLabel>Bronze Pieces</FormLabel>
-              <Input
-                type="number"
-                name="bronzepieces"
-                value={formData.bronzepieces}
-                onChange={handleInputChange}
-                min="0"
-                size="sm"
-              />
-            </FormControl>
-            <Button colorScheme="teal" onClick={handleUpdateAll} mt={2}>
-              Update All
-            </Button>
-          </GridItem>
-        </Grid>
+  Hit Points & Resources
+</Heading>
+<Resources
+  formData={formData}
+  handleInputChange={handleInputChange}
+  handleUpdateAll={handleUpdateAll}
+/>
+
 
         {/* Divider */}
         <Divider my={6} />
