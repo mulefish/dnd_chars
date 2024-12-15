@@ -10,7 +10,7 @@ const initialCharacterState = {
     INT: { value: 8, bonus: -1 },
     WIS: { value: 14, bonus: 2 },
     CHR: { value: 14, bonus: 2 },
-    hitPoints: 63, // Added hit points for Earnest
+    hitPoints:90, // Added hit points for Earnest
     goldpieces: 1,
     silverpieces: 0,
     bronzepieces: 0,
