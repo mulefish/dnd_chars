@@ -1,0 +1,114 @@
+1st 	+2 	Divine Sense, Lay on Hands 	- 	- 	- 	- 	-
+2nd 	+2 	Fighting Style, Spellcasting, Divine Smite 	2 	- 	- 	- 	-
+3rd 	+2 	Divine Health, Sacred Oath 	3 	- 	- 	- 	-
+4th 	+2 	Ability Score Improvement 	3 	- 	- 	- 	-
+5th 	+3 	Extra Attack 	4 	2 	- 	- 	-
+6th 	+3 	Aura of Protection 	4 	2 	- 	- 	-
+7th 	+3 	Sacred Oath feature 	4 	3 	- 	- 	-
+8th 	+3 	Ability Score Improvement 	4 	3 	- 	- 	-
+9th 	+4 	- 	4 	3 	2 	- 	-
+10th 	+4 	Aura of Courage 	4 	3 	2 	   
+str:20, dex: 10, con: 13, int: 8, wis: 14, char: 14
+
+
+
+1. Class Proficiencies (Paladin)
+By default, Paladins are proficient in:
+
+Armor: All armor, shields
+Weapons: Simple and martial weapons
+Saving Throws: Wisdom, Charisma
+Skills: You choose two from: Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion.
+2. Background Proficiencies (Guard)
+Since "Guard" isn't an official 5e background, it's likely a homebrew or a re-skin of City Watch (from Sword Coast Adventurer’s Guide), which gives:
+
+Skills: Athletics, Insight
+Tool Proficiency: One type of gaming set, Vehicles (land)
+If "Guard" is different in your campaign, you might want to check with your DM.
+
+3. Racial Proficiencies (Human)
+Regular Humans don’t get extra proficiencies.
+Variant Human gets one skill proficiency of your choice.
+You mentioned Lucky, which means you are a Variant Human. This gives you:
+
+One skill proficiency (your choice)
+A feat (Lucky)
+4. Feat (Lucky)
+The Lucky feat doesn’t grant any proficiencies, but it lets you reroll dice three times per long rest.
+5. Skills Based on Your Info
+So far, we have:
+
+Athletics (From Guard)
+Insight (From Guard)
+One skill of your choice (From Variant Human)
+Two skills from Paladin list (Choose from Athletics, Insight, Intimidation, Medicine, Persuasion, Religion)
+6. Acrobatic Proficiency
+You mentioned that he is "good with Acrobatics." That likely means you chose Acrobatics (Dex-based) as your Variant Human skill proficiency.
+
+7. Final List of Proficiencies
+Armor & Weapons
+All Armor, Shields
+Simple and Martial Weapons
+Saving Throws
+Wisdom
+Charisma
+Skills
+Athletics (Guard)
+Insight (Guard)
+Acrobatics (Variant Human)
+(Pick Two More) from Paladin list:
+Intimidation (Good for a Vengeance Paladin)
+Persuasion (Useful for talking your way through situations)
+Tools
+One type of gaming set (From Guard)
+Vehicles (Land) (From Guard)
+Final Summary
+Your Level 10 Human Vengeance Paladin (ex-Guard) with Lucky likely has:
+
+✅ Armor & Weapon Proficiencies: All armor, shields, simple & martial weapons
+✅ Saving Throw Proficiencies: Wisdom, Charisma
+✅ Skills: Athletics, Insight, Acrobatics, Intimidation, Persuasion
+✅ Tool Proficiencies: One gaming set, Vehicles (land)
+
+Optional Adjustments
+If you want Religion or Medicine instead of Intimidation or Persuasion, you can swap one.
+If your DM allows a different Guard interpretation, double-check for any unique proficiencies.
+Does this align with your vision for the character? 😃
+
+
+..............
+Final Spell Loadout (Level 10 Vengeance Paladin)
+✅ Prepared Spells: 12 Total
+
+🛡️ 1st-Level (Pick 4)
+Bless (+1d4 on attacks/saves, amazing buff)
+Hunter’s Mark (+1d6 damage per hit)
+Shield of Faith (+2 AC)
+Cure Wounds (healing)
+⚔️ 2nd-Level (Pick 3)
+Misty Step (Bonus action teleport)
+Hold Person (Paralyze enemies, crit melee hits)
+Find Steed (Summon a warhorse, great for movement & combat)
+🔥 3rd-Level (Pick 2)
+Haste (Double speed, extra attack, +2 AC)
+Revivify (Emergency resurrection)
+🛡️ Always Prepared (Oath of Vengeance)
+Protection from Energy (Resistance to fire, cold, lightning, acid, thunder)
+Banishment (Remove a powerful enemy from battle)
+Hold Monster (Paralyze ANY creature, guaranteed melee crits)
+Final Notes
+Primary Strategy:
+Hunter’s Mark → Misty Step → Divine Smite on crits = Big damage.
+Hold Person/Hold Monster before attacking = Auto-crits with Smite.
+Haste yourself = 2 attacks + Smite + crazy movement.
+Save Spell Slots for Smite unless casting something game-changing.
+
+
+
+
+
+
+
+
+
+
